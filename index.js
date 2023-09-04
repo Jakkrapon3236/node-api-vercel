@@ -11,7 +11,8 @@ const db = mysql.createConnection({
     user: 'cmdkppco_tree',
     host: 'localhost',
     password: ':2Y08;r0VxVskS',
-    database: 'cmdkppco_tree'
+    database: 'cmdkppco_tree',
+    port: 2002
 })
 
 app.post('/api/add', (req,res) => {
